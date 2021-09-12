@@ -22,3 +22,6 @@ var playerHealth = new MemoryAddress<int>("put your address here");
 var currentHealth = playerHealth.Read(); // getting the value of an address
 playerHealth.Write(1000); // setting the value of the address
 ```
+
+## Why does this exist?
+The leading Memory libraries are great, but can be bulky and poorly optimized. If you want to just read or write values in memory, they are not the best option. This library uses OOP programming to achieve ~3x faster read/write speeds than the leading libraries. Additionally, this library comes with a handful of helpful extension methods that you'll probably need if you're dealing with Memory. Finally, everything in this library is documented, making it easy to understand what's happening.
