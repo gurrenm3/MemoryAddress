@@ -1,7 +1,7 @@
 # MemoryAddress
 A highly optimized library for reading and writing values in Memory. 
 
-There are a few very popular libraries for reading and writing values in Memory. All of them claim to be "the fastest" but when the performance is actually measured they disappoint. This library uses OOP programming to have significantly faster read/write times (about 3x faster than other libraries).
+There are a few popular libraries for reading and writing values in Memory. While they aren't bad, when it comes to reading/writing values in memory, they could be a lot better. This library uses OOP programming to have significantly faster read/write times (about 3x faster than other libraries).
 
 This is based on and aims to be an improvement of [Memory.dll](https://github.com/erfg12/memory.dll) and [Squalr's](https://github.com/Squalr/Squalr) reading and writing.
 
@@ -24,4 +24,4 @@ playerHealth.Write(1000); // setting the value of the address
 ```
 
 ## Why does this exist?
-The leading Memory libraries are great, but can be bulky and poorly optimized. If you want to just read or write values in memory, they are not the best option. This library uses OOP programming to achieve ~3x faster read/write speeds than the leading libraries. Additionally, this library comes with a handful of helpful extension methods that you'll probably need if you're dealing with Memory. Finally, everything in this library is documented, making it easy to understand what's happening.
+The leading Memory libraries are great, but in some ways can be bulky and poorly optimized. They are not the best option if all you want to do is read/write values in memory. This library uses OOP programming to achieve ~3x faster read/write speeds than the leading libraries. Additionally, this library comes with a handful of helpful extension/utility methods that you'll probably need if you're dealing with Memory. Finally, everything in this library is documented making it easy to understand what's happening.
