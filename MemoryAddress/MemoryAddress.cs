@@ -4,7 +4,7 @@ using System;
 namespace MemoryAddress
 {
     /// <summary>
-    /// Custom class for memory scanning. About 3x better performance than the leading
+    /// Custom class for memory scanning. About 3x better performance than the leading 
     /// libraries
     /// </summary>
     public class MemoryAddress<T> : IDisposable
